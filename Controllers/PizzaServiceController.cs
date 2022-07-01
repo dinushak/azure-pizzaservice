@@ -6,17 +6,16 @@ namespace PizzaService.Controllers;
 [Route("[controller]")]
 public class PizzaServiceController : ControllerBase
 {
+
+    private readonly DataContext _context;
+    public PizzaServiceController(DataContext context)
+    {
+        _context = context;
+    }
     
     [HttpGet(Name = "GetPizzaOrders")]
-    public IEnumerable<PizzaOrder> Get()
+    public async Task<ActionResult<List<PizzaOrder>>>  Get()
     {
-        string[] pizzaType = {"Fruit","Veg","Seafood","Chicken"};
-        return Enumerable.Range(1, 5).Select(index => new PizzaOrder
-        {
-            Id = Random.Shared.Next(1, 100),
-            PizzaMake = pizzaType[Random.Shared.Next(0, pizzaType.Length-1)],
-            PizzaCount = Random.Shared.Next(1, 5)
-        })
-        .ToArray();
+        return Ok(await _context.PizzaOrders.ToListAsync());
     }
 }
