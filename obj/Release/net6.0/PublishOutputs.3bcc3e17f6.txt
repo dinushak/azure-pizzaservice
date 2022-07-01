@@ -1,0 +1,11 @@
+D:\Work\Azure\Compute\PizzaService\bin\Release\net6.0\publish\PizzaService.exe
+D:\Work\Azure\Compute\PizzaService\bin\Release\net6.0\publish\appsettings.Development.json
+D:\Work\Azure\Compute\PizzaService\bin\Release\net6.0\publish\appsettings.json
+D:\Work\Azure\Compute\PizzaService\bin\Release\net6.0\publish\PizzaService.dll
+D:\Work\Azure\Compute\PizzaService\bin\Release\net6.0\publish\PizzaService.deps.json
+D:\Work\Azure\Compute\PizzaService\bin\Release\net6.0\publish\PizzaService.runtimeconfig.json
+D:\Work\Azure\Compute\PizzaService\bin\Release\net6.0\publish\PizzaService.pdb
+D:\Work\Azure\Compute\PizzaService\bin\Release\net6.0\publish\Microsoft.OpenApi.dll
+D:\Work\Azure\Compute\PizzaService\bin\Release\net6.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+D:\Work\Azure\Compute\PizzaService\bin\Release\net6.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Work\Azure\Compute\PizzaService\bin\Release\net6.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll

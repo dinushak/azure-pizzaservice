@@ -1,0 +1,6 @@
+D:\Work\Azure\Compute\PizzaService\bin\Debug\net6.0\PizzaService.exe
+D:\Work\Azure\Compute\PizzaService\bin\Debug\net6.0\PizzaService.dll
+D:\Work\Azure\Compute\PizzaService\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Work\Azure\Compute\PizzaService\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Work\Azure\Compute\PizzaService\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Work\Azure\Compute\PizzaService\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
