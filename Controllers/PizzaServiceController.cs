@@ -13,7 +13,7 @@ public class PizzaServiceController : ControllerBase
         return Enumerable.Range(1, 5).Select(index => new PizzaOrder
         {
             Id = Random.Shared.Next(1, 100),
-            PizzaMake = "Cheese",
+            PizzaMake = "SeaFood",
             PizzaCount = Random.Shared.Next(1, 5)
         })
         .ToArray();
